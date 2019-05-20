@@ -1,0 +1,115 @@
+page{
+	background-color: #f7f7f7;
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+}
+view,input,text,icon,button,rich-text,label,image,swiper,scroll-view,checkbox,textarea,navigator,form{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+button:after{
+	display: none;
+}
+.divide{
+	height: 20upx;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+.fixed-bottom{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 19;
+	width: 100%;
+}
+.fixed-bottom button{
+	border-radius: 0;
+	border: 0;
+	padding: 0;
+}
+.fixed-bottom [class^="btn-"],
+.fixed-bottom>.uni-flex-item{
+	height: 98upx;
+	line-height: 98upx;
+	text-align: center;
+	font-size: 32upx;
+}
+.fixed-bottom .btn-default{
+	border-top: 1upx solid #f1f1f1;
+}
+.fixed-bottom button:after{
+	display: none;
+}
+.btn-danger{
+	background-color: #f44;
+	color: #fff;
+}
+.btn-default{
+	background-color: #fff;
+	color: #333;
+}
+.btn-primary{
+	background-color: #48A7F9;
+	color: #fff;
+}
+.btn-primary[disabled]{
+	background-color: #ccc;
+}
+.btn-primary[disabled]:not([type]){
+	background-color: #ccc;
+	color: #fff;
+}
+.red{
+	color: #f44;
+}
+.icon-link{
+	position: relative;
+	padding-right: 30upx;
+}
+.icon-link:after{
+	content:'\E583';
+	position: absolute;
+	right: -8upx;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-family: uniicons;
+	font-size: 32upx;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.price-past{
+	color: #999;
+	text-decoration: line-through;
+	margin-right: 20upx;
+}
+.price{
+	color: #f33;
+}
+.empty{
+	padding:20upx 30upx;
+	font-size: 24upx;
+	color: #666;
+	line-height: 1.5;
+	text-align: center;
+}
+.uni-loadmore{
+	color: #999;
+}
+.uni-icon-spinner-cycle{
+	-webkit-animation: roll 1s linear infinite;
+	animation: roll 1s linear infinite;
+}
+@keyframes roll{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+@-webkit-keyframes roll{
+	from{-webkit-transform: rotate(0deg);}
+	to{-webkit-transform: rotate(360deg);}
+}
+

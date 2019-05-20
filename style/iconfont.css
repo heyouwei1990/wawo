@@ -1,0 +1,355 @@
+
+@font-face {
+	font-family: "iconfont";
+	font-weight: normal;
+	font-style: normal;
+	src: url('~@/static/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	display: inline-block;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-back:before {
+  content: "\e600";
+}
+
+.icon-add:before {
+  content: "\e627";
+}
+
+.icon-email:before {
+  content: "\e705";
+}
+
+.icon-loved:before {
+  content: "\e6a9";
+}
+
+.icon-clear:before {
+  content: "\e683";
+}
+
+.icon-search:before {
+  content: "\e61b";
+}
+
+.icon-share:before {
+  content: "\e60a";
+}
+
+.icon-locate:before {
+  content: "\e628";
+}
+
+.icon-close:before {
+  content: "\e616";
+}
+
+.icon-pic:before {
+  content: "\e6e9";
+}
+
+.icon-minus:before {
+  content: "\e64f";
+}
+
+.icon-recovery:before {
+  content: "\e60e";
+}
+
+.icon-wechat:before {
+  content: "\e711";
+}
+
+.icon-imgs:before {
+  content: "\e648";
+}
+
+.icon-phone:before {
+  content: "\e69d";
+}
+
+.icon-love:before {
+  content: "\e6de";
+}
+
+.icon-menu:before {
+  content: "\e61e";
+}
+
+.icon-radio1:before {
+  content: "\e67e";
+}
+
+.icon-radio:before {
+  content: "\e67f";
+}
+
+.icon-delete:before {
+  content: "\e645";
+}
+
+.icon-praise:before {
+  content: "\e73b";
+}
+
+.icon-go-top:before {
+  content: "\e61c";
+}
+
+.icon-player:before {
+  content: "\e631";
+}
+
+.icon-play:before {
+  content: "\e769";
+}
+
+.icon-fullscreen:before {
+  content: "\e786";
+}
+
+.icon-face:before {
+  content: "\e64e";
+}
+
+.icon-home:before {
+  content: "\e9bb";
+}
+
+.icon-eye-fill:before {
+  content: "\e62b";
+}
+
+.icon-look:before {
+  content: "\e663";
+}
+
+.icon-module-fill:before {
+  content: "\e605";
+}
+
+.icon-tel:before {
+  content: "\e636";
+}
+
+.icon-bankcard:before {
+  content: "\e657";
+}
+
+.icon-dots:before {
+  content: "\e610";
+}
+
+.icon-arrow-left:before {
+  content: "\e612";
+}
+
+.icon-restore:before {
+  content: "\e618";
+}
+
+.icon-laugh:before {
+  content: "\e665";
+}
+
+.icon-bag:before {
+  content: "\e625";
+}
+
+.icon-ewm:before {
+  content: "\e642";
+}
+
+.icon-time:before {
+  content: "\e61f";
+}
+
+.icon-article:before {
+  content: "\e747";
+}
+
+.icon-write:before {
+  content: "\e626";
+}
+
+.icon-comment:before {
+  content: "\e64d";
+}
+
+.icon-transfer:before {
+  content: "\e63c";
+}
+
+.icon-editor:before {
+  content: "\e604";
+}
+
+.icon-qq:before {
+  content: "\e62c";
+}
+
+.icon-video:before {
+  content: "\e62e";
+}
+
+.icon-checked:before {
+  content: "\e632";
+}
+
+.icon-sina:before {
+  content: "\e62d";
+}
+
+.icon-calendar:before {
+  content: "\e659";
+}
+
+.icon-plus:before {
+  content: "\e653";
+}
+
+.icon-cart-fill:before {
+  content: "\e651";
+}
+
+.icon-cart:before {
+  content: "\e602";
+}
+
+.icon-product:before {
+  content: "\e7d1";
+}
+
+.icon-email-opened:before {
+  content: "\e689";
+}
+
+.icon-praised:before {
+  content: "\e608";
+}
+
+.icon-edit:before {
+  content: "\e629";
+}
+
+.icon-file:before {
+  content: "\e62f";
+}
+
+.icon-user:before {
+  content: "\e635";
+}
+
+.icon-play-fill:before {
+  content: "\e620";
+}
+
+.icon-refresh:before {
+  content: "\e617";
+}
+
+.icon-refresh1:before {
+  content: "\e6e5";
+}
+
+.icon-lock:before {
+  content: "\e6b1";
+}
+
+.icon-arrow-up:before {
+  content: "\e9bc";
+}
+
+.icon-arrow-right:before {
+  content: "\e9bd";
+}
+
+.icon-arrow-down:before {
+  content: "\e9be";
+}
+
+.icon-star:before {
+  content: "\e7a7";
+}
+
+.icon-tel-fill:before {
+  content: "\e606";
+}
+
+.icon-letter:before {
+  content: "\e674";
+}
+
+.icon-notice:before {
+  content: "\e6a5";
+}
+
+.icon-card:before {
+  content: "\e681";
+}
+
+.icon-pinch-out:before {
+  content: "\e725";
+}
+
+.icon-tag:before {
+  content: "\e641";
+}
+
+.icon-people:before {
+  content: "\e621";
+}
+
+.icon-money:before {
+  content: "\e622";
+}
+
+.icon-star-fill:before {
+  content: "\e687";
+}
+
+.icon-order:before {
+  content: "\e6ab";
+}
+
+.icon-pause:before {
+  content: "\e652";
+}
+
+.icon-qrcode:before {
+  content: "\e633";
+}
+
+.icon-tag-fill:before {
+  content: "\e640";
+}
+
+.icon-max:before {
+  content: "\e70e";
+}
+
+.icon-add-buddy:before {
+  content: "\e695";
+}
+
+.icon-backspace:before {
+  content: "\e623";
+}
+
+.icon-module:before {
+  content: "\e712";
+}
+
+.icon-eye-close:before {
+  content: "\e9bf";
+}
+

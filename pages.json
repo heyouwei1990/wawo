@@ -1,0 +1,726 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		      "path" : "pages/index/index",
+		      "style" : {}
+		  },
+		{
+			"path": "pages/startPage/startPage",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": "false"
+				}
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"float": "left",
+								"text": " ",
+								"fontSize": "22px",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"width": "10px"
+							},
+							{
+								"text": " ",
+								"fontSize": "22px",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"width": "10px"
+							}
+						],
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "rgba(255,255,255,0.3)",
+							"borderRadius": "15px",
+							"placeholder": "搜索关键字",
+							"placeholderColor": "rgba(255,255,255,0.8)",
+							"disabled": true
+						}
+					},
+					"pullToRefresh": {
+						"support": true,
+						"color": "#48a7f9",
+						"style": "circle",
+						"height": "50px",
+						"offset": "77px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mallIndex/mallIndex",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "",
+						"buttons": [{
+								"float": "left",
+								"text": " ",
+								"fontSize": "22px",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"width": "10px"
+							},
+							{
+								"text": " ",
+								"fontSize": "22px",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"width": "10px"
+							}
+						],
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "rgba(255,255,255,0.5)",
+							"borderRadius": "15px",
+							"placeholder": "搜索商品关键字",
+							"placeholderColor": "rgba(255,255,255,0.8)",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/newsIndex/newsIndex",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"float": "left",
+								"text": " ",
+								"fontSize": "22px",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"width": "10px"
+							},
+							{
+								"text": " ",
+								"fontSize": "22px",
+								"color": "#fff",
+								"background": "rgba(0,0,0,0)",
+								"width": "10px"
+							}
+						],
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "rgba(255,255,255,0.3)",
+							"borderRadius": "15px",
+							"placeholder": "搜索关键字",
+							"placeholderColor": "rgba(255,255,255,0.8)",
+							"disabled": true
+						}
+					},
+					"pullToRefresh": {
+						"support": true,
+						"color": "#48a7f9",
+						"style": "circle",
+						"height": "50px",
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/collegeIndex/collegeIndex",
+			"style": {
+				"navigationBarTitleText": "学院",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue659",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#fff"
+						}],
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "rgba(255,255,255,0.3)",
+							"borderRadius": "15px",
+							"placeholder": "搜索课程关键字",
+							"placeholderColor": "rgba(255,255,255,0.8)",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/userIndex/userIndex",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"bounce": "none"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/goodsList/goodsList",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#48a7f9",
+						"style": "circle",
+						"height": "50px",
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/calendar/calendar",
+			"style": {
+				"navigationBarTitleText": "课程日历"
+			}
+		},
+		{
+			"path": "pages/seach/seach",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "搜索",
+							"fontSize": "13px",
+							"color": "#fff"
+						}],
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "rgba(255,255,255,0.3)",
+							"borderRadius": "15px",
+							"placeholder": "搜索课程关键字",
+							"placeholderColor": "rgba(255,255,255,0.8)",
+							"autoFocus": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "注册",
+							"fontSize": "13px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/signIn/signIn",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+		},
+		{
+			"path": "pages/transfer/transfer",
+			"style": {
+				"navigationBarTitleText": "转账"
+			}
+		},
+		{
+			"path": "pages/TransferTo/TransferTo",
+			"style": {
+				"navigationBarTitleText": "转账"
+			}
+		},
+		{
+			"path": "pages/goodsDetail/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "商品详情",
+						"buttons": [{
+								"text": "\ue60a",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px",
+								"color": "#fff"
+							},
+							{
+								"text": "\ue504",
+								"fontSrc": "/static/uni.ttf",
+								"fontSize": "28px",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/submitOrder/submitOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/paySuccess/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "我的收货地址",
+				"app-plus": {
+					"titleNView": {
+						"titleText": "我的收货地址",
+						"buttons": [{
+							"text": "新增收货地址",
+							"fontSize": "13px",
+							"color": "#fff",
+							"width": "84px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/editAddress/editAddress",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址"
+			}
+		},
+		{
+			"path": "pages/orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#48a7f9",
+						"style": "circle",
+						"height": "50px",
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/creditValue/creditValue",
+			"style": {
+				"navigationBarTitleText": "信用值",
+				"navigationBarBackgroundColor": "#0193fe",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"titleText": "信用值"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/creditDetail/creditDetail",
+			"style": {
+				"navigationBarTitleText": "信用明细"
+			}
+		},
+		{
+			"path": "pages/friends/friends",
+			"style": {
+				"navigationBarTitleText": "好友列表",
+				"app-plus": {
+					"titleNView": {
+						"titleText": "好友列表",
+						"buttons": [{
+							"text": "\ue695",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/addFriend/addFriend",
+			"style": {
+				"navigationBarTitleText": "添加好友"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "我的设置"
+			}
+		},
+		{
+			"path": "pages/income/income",
+			"style": {
+				"navigationBarTitleText": "我的收益",
+				"app-plus": {
+					"titleNView": {
+						"titleText": "我的收益",
+						"buttons": [{
+							"text": "提现明细",
+							"fontSize": "13px",
+							"color": "#fff",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/withdrawList/withdrawList",
+			"style": {
+				"navigationBarTitleText": "提现明细"
+			}
+		},
+		{
+			"path": "pages/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/lessonDetail/lessonDetail",
+			"style": {
+				"navigationBarTitleText": "线下课程详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue60a",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px",
+								"color": "#fff"
+							},
+							{
+								"text": "\ue504",
+								"fontSrc": "/static/uni.ttf",
+								"fontSize": "28px",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/lessonList/lessonList",
+			"style": {
+				"navigationBarTitleText": "线下课程列表",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#48a7f9",
+						"style": "circle",
+						"height": "50px",
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/writeMoments/writeMoments",
+			"style": {
+				"navigationBarTitleText": "发表"
+			}
+		},
+		{
+			"path": "pages/videoList/videoList",
+			"style": {
+				"navigationBarTitleText": "视频课程列表",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#48a7f9",
+						"style": "circle",
+						"height": "50px",
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/videoDetail/videoDetail",
+			"style": {
+				"navigationBarTitleText": "视频课程详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue60a",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#fff"
+						}, {
+							"text": "\ue504",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "28px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/videoPlayer/videoPlayer",
+			"style": {
+				"navigationBarTitleText": "视频课程详情"
+			}
+		},
+		{
+			"path": "pages/addBankCard/addBankCard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡"
+			}
+		},
+		{
+			"path": "pages/bankCardList/bankCardList",
+			"style": {
+				"navigationBarTitleText": "银行卡",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue645",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/userInfo/userInfo",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			}
+		},
+		{
+			"path": "pages/realName/realName",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/articleDetail/articleDetail",
+			"style": {
+				"navigationBarTitleText": "文章",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue60a",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px",
+								"color": "#fff"
+							},
+							{
+								"text": "\ue504",
+								"fontSrc": "/static/uni.ttf",
+								"fontSize": "28px",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/upgrade/upgrade",
+			"style": {
+				"navigationBarTitleText": "升级会员"
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/qrcode/qrcode",
+			"style": {
+				"navigationBarTitleText": "我的二维码",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue60a",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#fff"
+						}]
+					},
+					"usingComponents": {
+						"canvasdrawer": "/wxcomponents/canvasdrawer/canvasdrawer"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/resetPassword/resetPassword",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		},
+		{
+			"path": "pages/friendMsg/friendMsg",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "pages/esotericaList/esotericaList",
+			"style": {
+				"navigationBarTitleText": "秘籍",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#48a7f9",
+						"style": "circle",
+						"height": "50px",
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/esotericaDetail/esotericaDetail",
+			"style": {
+				"navigationBarTitleText": "秘籍详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue60a",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px",
+								"color": "#fff"
+							},
+							{
+								"text": "\ue504",
+								"fontSrc": "/static/uni.ttf",
+								"fontSize": "28px",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/setPayPassword/setPayPassword",
+			"style": {
+				"navigationBarTitleText": "支付密码"
+			}
+		}, {
+			"path": "pages/previewImg/previewImg",
+			"style": {
+				"navigationBarTitleText": "预览",
+				"navigationBarBackgroundColor": "#000000",
+				"backgroundColor": "#000000"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/updateApp/updateApp",
+            "style" : {
+							"navigationBarTitleText": "软件更新",
+							"navigationBarBackgroundColor": "#007AFF",
+							"navigationBarTextStyle": "white",
+							"enablePullDownRefresh": true,
+							"app-plus": {
+							  "titleNView": {
+							    "backgroundColor": "#007AFF"
+							  },
+							  "pullToRefresh": {
+							    "support": true,
+							    "color": "#007AFF",
+							    "style": "circle"
+							  }
+							}
+						}
+        }
+    ],
+	"tabBar": {
+		"color": "#CCCCCC",
+		"selectedColor": "#0193fe",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tab/icon1.png",
+				"selectedIconPath": "static/tab/icon1_c.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/mallIndex/mallIndex",
+				"iconPath": "static/tab/icon2.png",
+				"selectedIconPath": "static/tab/icon2_c.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/newsIndex/newsIndex",
+				"iconPath": "static/tab/icon3.png",
+				"selectedIconPath": "static/tab/icon3_c.png",
+				"text": "资讯"
+			},
+			{
+				"pagePath": "pages/collegeIndex/collegeIndex",
+				"iconPath": "static/tab/icon4.png",
+				"selectedIconPath": "static/tab/icon4_c.png",
+				"text": "学院"
+			},
+			{
+				"pagePath": "pages/userIndex/userIndex",
+				"iconPath": "static/tab/icon5.png",
+				"selectedIconPath": "static/tab/icon5_c.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "哇喔",
+		"navigationBarBackgroundColor": "#0193fe",
+		"backgroundColor": "#F8F8F8"
+	}
+}
